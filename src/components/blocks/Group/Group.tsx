@@ -1,4 +1,4 @@
-import { FC, ReactNode } from "react";
+import { FC, ReactElement } from "react";
 
 import { classNames } from "../../../helpers";
 
@@ -15,7 +15,7 @@ export const Group: FC<IGroupProps> = ({
 	renderChildren,
 	rounded = "width",
 	...restProps
-}): ReactNode => {
+}): ReactElement => {
 	return (
 		<div
 			{...restProps}
