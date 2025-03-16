@@ -1,0 +1,83 @@
+:root {
+	/* Font Tokens */
+	--nstchrui--font-family: "Rubik", system-ui, -apple-system,
+		BlinkMacSystemFont, "Roboto", "Apple Color Emoji", "Helvetica Neue",
+		sans-serif;
+
+	/* Size Tokens */
+	--nstchrui--padding-vertical: 12px;
+	--nstchrui--padding-horizontal: 16px;
+	--nstchrui--border-size: 2px;
+	--nstchrui--border-radius: 10px;
+	--nstchrui--gap-size: 8px;
+
+	/* Color-Palette Tokens */
+	--nstchrui--accent-color: #5865f2;
+	--nstchrui--accent-dark-color: #4553ec;
+	--nstchrui--red-color: #e53935;
+	--nstchrui--red-dark-color: #cf1e21;
+	--nstchrui--green-color: #2dc770;
+	--nstchrui--green-dark-color: #239454;
+	--nstchrui--orange-color: #f0b232;
+	--nstchrui--orange-dark-color: #cc8c0d;
+	--nstchrui--gray-color: #707579;
+	--nstchrui--gray-dark-color: #212121;
+	--nstchrui--gray-light-color: #efeff4;
+	--nstchrui--black-color: #000000;
+	--nstchrui--white-color: #ffffff;
+
+	/* Color Tokens. Schem: Light */
+	--nstchrui--bg_color: var(--nstchrui--white-color);
+	--nstchrui--text_color: var(--nstchrui--black-color);
+	--nstchrui--text_contrast_color: var(--nstchrui--white-color);
+	--nstchrui--hint_color: var(--nstchrui--gray-color);
+	--nstchrui--link_color: var(--nstchrui--accent-color);
+	--nstchrui--secondary_bg_color: var(--nstchrui--gray-light-color);
+	--nstchrui--header_bg_color: var(--nstchrui--white-color);
+	--nstchrui--accent_text_color: var(--nstchrui--accent-color);
+	--nstchrui--section_bg_color: var(--nstchrui--white-color);
+	--nstchrui--section_header_text_color: var(--nstchrui--gray-color);
+	--nstchrui--subtitle_text_color: var(--nstchrui--gray-color);
+	--nstchrui--destructive_text_color: var(--nstchrui--red-color);
+}
+
+[data-theme="dark"] {
+	/* Color Tokens. Schem: Light */
+	--nstchrui--bg_color: var(--nstchrui--gray-dark-color);
+	--nstchrui--text_color: var(--nstchrui--white-color);
+	--nstchrui--text_contrast_color: var(--nstchrui--black-color);
+	--nstchrui--hint_color: var(--nstchrui--gray-color);
+	--nstchrui--link_color: var(--nstchrui--accent-color);
+	--nstchrui--secondary_bg_color: var(--nstchrui--gray-dark-color);
+	--nstchrui--header_bg_color: var(--nstchrui--gray-dark-color);
+	--nstchrui--accent_text_color: var(--nstchrui--accent-color);
+	--nstchrui--section_bg_color: var(--nstchrui--gray-dark-color);
+	--nstchrui--section_header_text_color: var(--nstchrui--gray-color);
+	--nstchrui--subtitle_text_color: var(--nstchrui--gray-color);
+	--nstchrui--destructive_text_color: var(--nstchrui--red-color);
+}
+
+* {
+	font-family: var(--nstchrui--font-family);
+	overflow-wrap: anywhere;
+	box-sizing: border-box;
+}
+
+/* Mobile */
+@media (max-width: 480) {
+}
+/* Extra small divices */
+@media (min-width: 481) and (max-width: 767) {
+}
+/* Small tablet */
+@media (min-width: 768) and (max-width: 991) {
+}
+/* Large tablet/laptops */
+@media (min-width: 992) and (max-width: 1199) {
+}
+/* destops */
+@media (min-width: 1200) and (max-width: 1919) {
+}
+/* Extra large screens */
+@media (min-width: 1920) {
+}
