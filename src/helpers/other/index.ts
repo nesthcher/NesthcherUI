@@ -28,4 +28,5 @@ export type {
 	RenderFunction,
 	TimeoutId,
 	ValuesOfObject,
+	VoidFunction,
 } from "./types";

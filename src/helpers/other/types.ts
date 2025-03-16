@@ -30,6 +30,9 @@ export type Prettify<T> = T extends object
 export type NotEmptyString = `${any}${string}`;
 
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
+export type VoidFunction = (...args: any[]) => void;
+
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
 export type AnyFunction = (...args: any[]) => any;
 
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
