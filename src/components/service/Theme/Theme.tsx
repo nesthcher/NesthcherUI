@@ -1,20 +1,7 @@
-/* eslint-disable react-refresh/only-export-components */
-import React, {
-	FC,
-	ReactElement,
-	useCallback,
-	useContext,
-	useState,
-} from "react";
+import { FC, ReactElement, useCallback, useState } from "react";
 
-import { IThemeProps, ThemeType } from "./Theme.types";
-
-const ThemeContext = React.createContext("dark" as ThemeType);
-const ThemeSwitcherContext = React.createContext(() => {});
-
-export const useTheme = () => useContext(ThemeContext);
-
-export const useThemeSwitcher = () => useContext(ThemeSwitcherContext);
+import { ThemeContext, ThemeSwitcherContext } from "./Theme.context";
+import { IThemeProps } from "./Theme.types";
 
 export const ThemeProvider: FC<IThemeProps> = ({
 	renderChildren,
